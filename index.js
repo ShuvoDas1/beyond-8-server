@@ -45,4 +45,4 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.listen(port || process.env.port)
+app.listen(port || process.env.PORT)
